@@ -1,0 +1,18 @@
+.product-list{
+    height: 0;
+    overflow: hidden;
+    transition: height .3s;
+}
+.product-list.open{
+    height: auto;
+}
+.product-actions{
+    text-align: center;
+    vertical-align: middle;
+}
+.show-product-list {
+    font-size: 36px;
+    line-height: 16px;
+    cursor: pointer;
+    color: green;
+}
